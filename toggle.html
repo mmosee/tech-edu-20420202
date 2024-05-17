@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="assets/js/include.js"></script>
+</head>
+<body style="height: 100vh; background: #ddd">
+    <!-- Header : START -->
+    <header class="header"></header>
+    <!-- //Header : END -->
+
+    <!-- Main : START -->
+    <main class="main container">
+        <div class="content">
+            <section class="section">
+                <style>
+                    .toggle-panel {display:none;}
+                    .toggle-panel.is-show {display:block}
+                </style>
+                <p class="toggle-open" data-toggle="text" >눌러요</p>
+                <div class="toggle-panel" data-toggle-panel="text">
+                     나는 숨겨진 내용입니다.
+                </div>
+
+                <button type="" class="toggle-open" data-toggle="button">눌러요</button>
+                <div class="toggle-panel" data-toggle-panel="button">
+                    나는 숨겨진 내용입니다.
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- Main : END -->
+
+    <!-- Footer : START -->
+    <footer class="footer"></footer>
+    <!-- //Footer : END -->
+
+    <script>
+        include.footer.scripts()
+    </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+:root {
+    --default__font-size : 20px;
+    --default__font-color: #fff;
+    --default__background-color: #333;
+
+
+}
+.dark-style {background:var(--default__background-color);color:var(--default__font-color);}
+
+.header > .inner, 
+.footer > .inner {max-width: 1200px; width: 100%; margin:0 auto;}
+.center-align {max-width: 1200px; width: 100%; margin:0 auto;}
+
+
+/********** 폰트 컬러 옵션 *********/
+.fc-b {color: blue;}
+.fc-k {color: black;}
+.fc-w {color: white;}
+.fc-r {color: red;}
+.fc-g {color: green;}
+
+/********** 폰트 사이즈 옵션 *********/
+.fs-10 {font-size: 10px;line-height: 16px;}
+.fs-12 {font-size: 12px;line-height: 18px;}
+.fs-14 {font-size: 14px;line-height: 20px;}
+.fs-16 {font-size: 16px;line-height: 22px;}
+.fs-18 {font-size: 18px;line-height: 24px;}
+
+/********** 정렬 옵션 *********/
+.tac {
+    text-align: center;
+}
+.tal {
+    text-align: left;
+}
+.tar {
+    text-align: right;
+}
+
+/********** 아이콘 옵션 *********/
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+/*.icon.icon-cross-w {
+    background-image: url();
+}*/
+
+/********** 폰트 굵기 옵션 *********/
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+/********** 버튼 옵션 *********/
+.btn {
+    display: inline-block;
+    height: 32px;
+    min-width: 80px;
+    font-size: 14px;
+    background: #fff;
+    color: #333;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+}
+.btn.btn-round {
+    border-radius: 10px;
+}
+.btn.bg-info {
+    background: rgb(160, 160, 160);
+    color: #333;
+    transition: background .2s;
+}
+.btn.bg-info:hover {
+    background:rgb(174, 174, 174);
+    transition: background .2s;
+}
+.btn.bg-primary {
+    background: rgb(60, 91, 227);
+    color: #fff;
+    transition: background .2s;
+}
+.btn.bg-primary:hover {
+    background:rgb(74, 105, 241);
+    transition: background .2s;
+}
+
+/********** 버튼 사이즈 옵션 *********/
+.btn.size-m {
+    min-width: 120px;
+}
+.btn.size-l {
+    min-width: 200px;
+}
+.btn.size-w {
+    width: 100%;
+}
+
+/********** 라벨 *********/
+label {
+    font-size: 13px
+}
+
+/********** 인풋 *********/
+input {
+    
+}
+
+/********** 마진 *********/
+.mt10 {margin-top:10px}
+.mt20 {margin-top:20px}
+.mt30 {margin-top:30px}
+.mt40 {margin-top:40px}
+.mt50 {margin-top:50px}
+
+.mr10 {margin-right:10px}
+.mr20 {margin-right:20px}
+.mr30 {margin-right:30px}
+.mr40 {margin-right:40px}
+.mr50 {margin-right:50px}
+
+.ml10 {margin-left:10px}
+.ml20 {margin-left:20px}
+.ml30 {margin-left:30px}
+.ml40 {margin-left:40px}
+.ml50 {margin-left:50px}
+
+/********** 패딩 *********/
+.pt10 {padding-top:10px}
+.pt20 {padding-top:20px}
+.pt30 {padding-top:30px}
+.pt40 {padding-top:40px}
+.pt50 {padding-top:50px}
+
+.pr10 {padding-right:10px}
+.pr20 {padding-right:20px}
+.pr30 {padding-right:30px}
+.pr40 {padding-right:40px}
+.pr50 {padding-right:50px}
+
+.pl10 {padding-left:10px}
+.pl20 {padding-left:20px}
+.pl30 {padding-left:30px}
+.pl40 {padding-left:40px}
+.pl50 {padding-left:50px}
